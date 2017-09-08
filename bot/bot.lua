@@ -6,7 +6,7 @@ by omar alsaray @blcon  \ @verxbot
 ]]
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "405025004:AAElIx7eLOkaL4JNokgrJ7J8VrAZHX90Gj8"
+bot_token = "تـوكـن"
 send_api = "https://api.telegram.org/bot"..bot_token
 sudo_id = 352568466
 http = require('socket.http')
