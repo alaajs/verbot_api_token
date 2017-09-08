@@ -1432,8 +1432,6 @@ if status.result.total_count ~= 0 then
 	else
 return '💢¦لا توجد صورة في بروفايلك !!! \n💢¦ اسمك : '..msg.from.first_name..'\n💢¦ معرفك : '..userxn..'\n💢¦ ايديك : '..msg.from.id..'\n💢¦ رتبتك : '..rank..'\n💬¦ عدد رسائلك : ['..msgs..'] رسالة 💯\n'
 end
-   elseif msg.reply_to_message and not msg.reply.fwd_from and is_mod(msg) then
-     return "["..msg.reply.id.."]"
    elseif not string.match(matches[2], '^%d+$') and matches[2] ~= "التوجيه" and is_mod(msg) then
     local status = resolve_username(matches[2])
 		if not status.result then
